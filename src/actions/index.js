@@ -1,6 +1,6 @@
-// export const GET_SOME_DATA = 'GET_SOME_DATA'
+import { GET_KEY_AT_CLICK } from 'actions/actionTypes'
 
-// export const getSomeData = someData => ({
-//     type: GET_SOME_DATA,
-//     someData
-// })
+export const getKeyAtClick = id => ({
+  type: GET_KEY_AT_CLICK,
+  payload: id,
+})

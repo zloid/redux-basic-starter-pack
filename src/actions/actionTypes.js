@@ -1,0 +1,1 @@
+export const GET_KEY_AT_CLICK = 'GET_KEY_AT_CLICK'
