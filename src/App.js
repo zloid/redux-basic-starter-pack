@@ -1,5 +1,5 @@
 import React from 'react'
-import TestComponentContainer from '../containers/TestComponentContainer'
+import TestComponentContainer from 'containers/TestComponentContainer'
 
 const App = () => {
   return (

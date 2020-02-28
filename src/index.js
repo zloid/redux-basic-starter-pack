@@ -1,16 +1,20 @@
+// by libs
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
-import rootReducer from './reducers'
-
 import { createStore} from 'redux'
-// import { createStore, applyMiddleware } from 'redux'
-// import thunk from 'redux-thunk'
+// import { applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
+// import thunk from 'redux-thunk'
 
+// by user
+import App from './App'
+import rootReducer from 'reducers'
+
+// start here
 const store = createStore(rootReducer)
 
-console.log(store.getState().firstReducer)
+//for test
+// console.log(store.getState().firstReducer)
 
 render(
   <Provider store={store}>
