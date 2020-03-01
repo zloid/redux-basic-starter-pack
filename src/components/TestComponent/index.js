@@ -16,7 +16,7 @@ const TestComponent = ({ testData, getKeyAtClick }) => {
         </u>
         {mappedFromFirstReducer}
       </button>
-      <button>{`<<`} click at words for get their keys</button>
+      <button>{`<<`} click at words for show their keys & delete</button>
     </>
   )
 }

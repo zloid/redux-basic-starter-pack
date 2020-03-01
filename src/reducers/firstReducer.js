@@ -17,8 +17,13 @@ const initialState = {
 const firstReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_KEY_AT_CLICK:
-      console.log(state)
-      return { ...state, testData: [...state.testData, action.payload] }
+      return {
+        ...state,
+        testData: [
+          ...state.testData.filter((elm, key) => key !== action.payload),
+          action.payload,
+        ],
+      }
     default:
       return state
   }

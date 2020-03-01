@@ -1,6 +1,6 @@
 {
-  "name": "async-redux-api-test",
-  "version": "0.1.0",
+  "name": "redux-basic-starter-pack",
+  "version": "0.10.0",
   "private": true,
   "dependencies": {
     "prop-types": "^15.7.2",
@@ -9,9 +9,7 @@
     "react-redux": "^7.1.1",
     "react-scripts": "3.1.1",
     "redux": "^4.0.4",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "thunk": "0.0.1"
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,5 +38,8 @@
     "semi": false,
     "singleQuote": true,
     "jsxBracketSameLine": false
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
   }
 }

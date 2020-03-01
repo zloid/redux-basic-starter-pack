@@ -3,9 +3,9 @@ import TestComponentContainer from 'containers/TestComponentContainer'
 
 const App = () => {
   return (
-    <h1>
+    <>
       <TestComponentContainer />
-    </h1>
+    </>
   )
 }
 
